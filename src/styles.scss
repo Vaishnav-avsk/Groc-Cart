@@ -1,15 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "~font-awesome/css/font-awesome.min.css";
 
 $primary-color: #006400;
 $primary-color-hover: #008000;
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
-body { padding-top: 5em; }
+body {
+  padding-top: 5em;
+}
 
 .thumbnail {
   width: 60px;
@@ -23,7 +25,7 @@ body { padding-top: 5em; }
   height: 80px;
 }
 
-.navbar { 
+.navbar {
   border-bottom: 3px solid #e7e7e7;
 }
 
@@ -31,7 +33,8 @@ body { padding-top: 5em; }
   color: $primary-color;
 }
 
-.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
   color: $primary-color-hover;
 }
 
@@ -50,7 +53,8 @@ body { padding-top: 5em; }
   border-color: $primary-color-hover;
 }
 
-.btn-primary.disabled, .btn-primary:disabled {
+.btn-primary.disabled,
+.btn-primary:disabled {
   background-color: $primary-color;
   border-color: $primary-color;
 }
